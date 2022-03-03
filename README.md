@@ -64,3 +64,6 @@
 ## pull
 `git pull`				=> git fetch + git merge<br>
 `git pull origin [branch] --allow-unrelated-histories`	=> fix problem git pull refusing to merge unrelated histories
+
+## reset
+`git reset --hard HEAD`   => reset the local changes to original version
