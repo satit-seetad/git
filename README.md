@@ -4,8 +4,8 @@
 `git clone -b develop <git_repo>`   => clone project from remote with specific branch
 
 ## config
-`git config --global user.email "satit.seetad@gmail.com"`<br>
-`git config --global user.name "satit.seetad"` <br>
+`git config --global user.email "<email>"`<br>
+`git config --global user.name "<name>"` <br>
 `git config --global --list`<br>
 
 ## create git local repository
@@ -26,11 +26,11 @@
 `git branch -M <branch>`    => rename branch<br>
 
 ## add remote repository
-`git remote add origin https://github.com/satit-seetad/es.git`
+`git remote add origin <git_repo>`
 
 ## push to remote repository
 `git push`                      <br>
-`git push -u origin [branch]`   <br>
+`git push -u origin <branch>`   <br>
 `git push -u origin HEAD`       <br>
 
 ## check status
@@ -43,7 +43,7 @@
 `git checkout HEAD <file>`
 `git checkout <branch>`	    => switch branch<br>
 `git checkout -b <branch>`	=> create branch and switch<br>
-`git checkout -b <branch> <based branch>`	=> create branch from based branch<br>
+`git checkout -b <branch> <based_branch>`	=> create branch from based branch<br>
 `git checkout --track origin/<branch>`	=> swith remote branch
 
 ## log
@@ -64,7 +64,7 @@
 
 ## pull
 `git pull`				=> git fetch + git merge<br>
-`git pull origin [branch] --allow-unrelated-histories`	=> fix problem git pull refusing to merge unrelated histories
+`git pull origin <branch> --allow-unrelated-histories`	=> fix problem git pull refusing to merge unrelated histories
 
 ## reset
 `git reset --hard HEAD`   => reset the local changes to original version
