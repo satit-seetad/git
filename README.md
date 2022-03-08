@@ -1,7 +1,7 @@
 # Frequenly used git command
 ## clone git remote repository
 `git clone <git_repo>`<br>
-`git clone -b develop <git_repo>`   => clone project from remote with specific branch
+`git clone -b <remote_branch> <git_repo>`   => clone project from remote with specific branch
 
 ## config
 `git config --global user.email "<email>"`<br>
